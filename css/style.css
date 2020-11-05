@@ -1,0 +1,90 @@
+html {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  font-size: 21px;
+}
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.p {
+  margin: 0 0 10px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/*page*/
+.page {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+/*Header*/
+.header {
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+.inner-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-brandname {
+  display: flex;
+  padding: 0;
+  margin: 56px 0 0 196px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #233348;
+}
+.header-t {
+  margin: 0 12px 0 0;
+  height: 41px;
+  width: 41px;
+  padding: 5px 11px 4px 13px;
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: #458ff6;
+  text-align: center;
+}
+.header-brand {
+  padding-top: 6px;
+}
+.header-nav {
+  display: flex;
+  margin-right: 192px;
+  margin-top: 70px;
+ 
+}
+.header-nav-link {
+  margin-left: 40px;
+    text-decoration: none;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+}
+.active {
+    opacity: 1.0;
+}
+.header-nav-link:visited {
+    text-decoration: none;
+}
