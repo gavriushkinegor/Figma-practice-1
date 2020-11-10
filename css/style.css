@@ -3,9 +3,10 @@ html {
 }
 
 body {
+  max-width: 1920px;
     margin: 0;
-    font-family: "Mulish", sans-serif;
-    font-size: 21px;
+  font-family: "Mulish", sans-serif;
+  font-size: 21px;
 }
 
 .h1,
@@ -115,15 +116,17 @@ h6 {
     display: flex;
 }
 
+.inner-h {
+  width: 425.08px;
+  height: 114.65px;
+}
 .title {
-    width: 425.08px;
-    height: 114.65px;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-    color: #000000;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
 }
 
 .dots {
@@ -131,15 +134,13 @@ h6 {
 }
 
 .text {
-    height: auto;
-    width: 443px;
-    padding-top: 25.59px;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 21px;
-    line-height: 32px;
-    color: #7d7987;
+  padding-top: 25.59px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
 }
 
 .consult-btn {
@@ -217,6 +218,7 @@ h6 {
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
+
 }
 
 .row {
