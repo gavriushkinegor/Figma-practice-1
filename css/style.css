@@ -110,6 +110,12 @@ h6 {
 .dots {
   margin-top: 63px;
 }
+.dots-2 {
+  position: absolute;
+  right: 41%;
+  top: 34%;
+  
+}
 .text {
   padding-top: 25.59px;
   font-family: Mulish;
@@ -186,23 +192,34 @@ h6 {
   letter-spacing: 0em;
   text-align: center;
 }
+
+.services-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+}
 .services {
   display: flex;
-  margin: 0 218px 0 100px;
+  max-height: 354px;
+  max-height: 30%;
   position: relative;
-  z-index: 3;
 }
 .row {
+  width: 350px;
+  height: 354px;
   display: flex;
   margin-right: 34px;
+
 }
 
 .bg-element {
   display: block;
   position: absolute;
-  z-index: 0;
-  top: 1100px;
-  left: -50px;
+ 
+  top: -22%;
+  left: -5%;
 }
 .providers {
   position: relative;
