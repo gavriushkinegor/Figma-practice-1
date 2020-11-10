@@ -224,3 +224,35 @@ h6 {
     max-width: 350px;
     margin-right: 34px;
 }
+
+.servises-row {
+    box-sizing: border-box;
+    padding: 54px 40px;
+    max-width: 350px;
+    max-height: 354px;
+    width: 30%;
+    border-radius: 15px;
+    margin-right: 34px;
+    box-shadow: 2px 3px 5px rgba(229, 233, 246, .4)
+}
+
+.servises-row p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.servises-row h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.servises-row:hover {
+    transition: all 500ms ease-in-out;
+    box-shadow: 2px 3px 5px rgba(155, 155, 155, 0.8);
+}
+
+.servises-row:nth-child(3) {
+    margin-right: 0px;
+}
