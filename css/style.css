@@ -192,7 +192,7 @@ h6 {
 }
 
 .mid-title {
-  margin-top: 185px;
+  margin: 185px auto;
   font-family: Mulish;
   font-size: 36px;
   font-style: normal;
@@ -304,8 +304,7 @@ h6 {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  color: #7D7987;
-
+  color: #7d7987;
 }
 .providers-text {
   height: 112px;
@@ -347,7 +346,7 @@ h6 {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
-  color: #7D7987;
+  color: #7d7987;
 }
 .apps-container h1:after {
   content: "";
@@ -360,4 +359,144 @@ h6 {
 }
 .apps-button {
   padding-top: 70px;
+}
+.bluebox {
+  margin: 0 auto;
+  padding-top: 64px;
+  width: 1120px;
+  height: 425px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+}
+.bluebox h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+}
+.bluebox h1:after {
+  content: "";
+  display: block;
+  margin: 25px auto 65px;
+  height: 2px;
+  width: 56px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.bluebox-content {
+  display: flex;
+  padding-left: 118px;
+  align-items: center;
+}
+.bluebox-content img {
+  height: 141px;
+  width: 141px;
+}
+.name-content {
+  display: flex;
+  padding: 32px 0 0 28px;
+  flex-direction: column;
+}
+.name-content h1 {
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.name-content h1:after {
+  content: none;
+}
+.name-content p {
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.bluebox-text {
+  padding-left: 100px;
+  height: 120px;
+  width: 500px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.check-articles h1 {
+  text-align: center;
+}
+.check-articles:after {
+  content: "";
+  display: block;
+  margin: 26px auto 33px;
+  height: 2px;
+  width: 56px;
+  background: #000000;
+  border-radius: 5px;
+}
+.articles {
+  display: flex;
+}
+.article-content {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 512px;
+  background-image: url(../img/blood.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+.article-content h1 {
+  align-self: center;
+  width: 250px;
+  padding-top: 240px;
+  font-family: Mulish;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.article-content p {
+  align-self: center;
+  width: 250px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d7987;
+}
+.article-content a {
+  align-self: center;
+  width: 250px;
+  text-decoration: none;
+  color: #4089ed;
+}
+.article-content a:visited {
+  color: #4089ed;
+}
+.article-content a:hover {
+  color: #1d5fbb;
+  transition: all 500ms;
+}
+.article-content:nth-child(2){
+  background-image: url(../img/microscope.png);
+}
+.article-content:nth-child(3){
+  background-image: url(../img/shrek-semen.png);
 }
