@@ -437,7 +437,7 @@ h6 {
 .check-articles:after {
   content: "";
   display: block;
-  margin: 26px auto 33px;
+  margin: 26px auto 55px;
   height: 2px;
   width: 56px;
   background: #000000;
@@ -445,8 +445,11 @@ h6 {
 }
 .articles {
   display: flex;
+  margin: 0 auto;
+  width: max-content;
 }
 .article-content {
+  margin-right: 35px;
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -494,9 +497,71 @@ h6 {
   color: #1d5fbb;
   transition: all 500ms;
 }
-.article-content:nth-child(2){
+.article-content:nth-child(2) {
   background-image: url(../img/microscope.png);
 }
-.article-content:nth-child(3){
+.article-content:nth-child(3) {
+  margin-right: 0;
   background-image: url(../img/shrek-semen.png);
+}
+.view-btn {
+  margin: 60px auto 170px;
+  width: 180px;
+  min-width: 172px;
+}
+.footer {
+  padding: 100px 0 100px 0;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:visited {
+  color: #ffffff;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.t {
+  margin: 0 12px 0 0;
+  height: 41px;
+  width: 41px;
+  padding: 5px 11px 4px 13px;
+  color: #458ff6;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.footer-company {
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+}
+.footer-company a {
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.first-in-column {
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
 }
